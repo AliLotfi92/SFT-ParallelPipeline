@@ -1,6 +1,6 @@
 # Pipeline Parallelism for LLaMA Model Fine-Tuning
 
-Implementation of pipeline parallelism is not hard. This repo provieds a simple code example for fine-tuning the LLaMA 3.2-1B Instruct model. The model is split across multiple GPUs to address memory limitations during training, as I'm poor gpu guy. 
+Implementation of pipeline parallelism is not hard. This repo provieds a simple code example for fine-tuning the LLaMA 3.2-1B Instruct model. Using this the model would be splitted across multiple GPUs to address memory limitations during training.
 
 ## Features
 - **Pipeline Parallelism:** To address large model memory requirements, it splitts the model across multiple GPUs.
